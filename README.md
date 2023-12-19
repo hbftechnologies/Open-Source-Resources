@@ -4,7 +4,7 @@
 <div align="center">
 	<h1>Open Source Resources</h1>
 	<p><strong>This project encompasses my open source projects and scripts.</strong><p>
-	<img src="images/logo.png" width="500px" height="250px" alt="Main Logo">
+	<img src="images/logo.png" width="600px" height="250px" alt="Main Logo">
 </div>
 
 ## Table of Contents
@@ -56,7 +56,7 @@ No Referenced Links
 ## Gallery
 > Insert the the images for this project.
 
-<img src="images/logo.png" width="250px" height="50px" alt="Main Logo">
+<img src="images/logo.png" width="600px" height="250px" alt="Main Logo">
 
 <div align="right"><p>(<a href="#top">back to top</a>)</p></div>
 
