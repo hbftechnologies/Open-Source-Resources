@@ -9,7 +9,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Added
 - scripts
   - powershell
-    - iOSMobileSort.ps1  
+    - iOSMobileSort.ps1
+  - macOS
+    - bomgar-install.sh
 
 ### Moved
 Nothing moved.
