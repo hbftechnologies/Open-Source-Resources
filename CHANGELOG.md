@@ -4,6 +4,22 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [01.27.2024.01] - 2024-01-27
+
+### Added
+- scripts
+  - python
+    - MySQLBackup.py
+
+### Moved
+Nothing moved.
+
+### Changed
+- CHANGELOG.md
+
+### Removed
+Nothing Removed.
+
 ## [12.19.2023.01] - 2023-12-19
 
 ### Added
