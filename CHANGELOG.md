@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - scripts
   - python
     - MySQLBackup.py
+    - ghostcms-backup.py
 
 ### Moved
 Nothing moved.
