@@ -4,7 +4,7 @@
 <div align="center">
 	<h1>Open Source Resources</h1>
 	<p><strong>This project encompasses my open source projects and scripts.</strong><p>
-	<img src="images/2024-Phoenix-HiRes-Transparent.png" width="600px" height="250px" alt="Main Logo">
+	<img src="images/2024-Phoenix-HiRes-Transparent.png" width="800px" height="250px" alt="Main Logo">
 </div>
 
 ## Table of Contents
