@@ -1,7 +1,7 @@
 # Script Name: Update Cloudflare IPs
 # Created by: xXsoulshockerXx
 # Created on: 2022-02-26
-# Last Updated: 2022-02-26
+# Last Updated: 2024-06-09
 # Version: 1.0
 # Description:
 # Script to update Cloudflare DNS records with the current public IP address.
