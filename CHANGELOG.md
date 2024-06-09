@@ -4,6 +4,46 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [06.09.2024.01] - 2024-06-09
+
+### Added
+- scripts
+  - powershell
+    - Update-CloudflareDomains.ps1
+- images
+  - 2024-Phoenix-HiRes-Transparent.png
+
+### Moved
+Nothing moved.
+
+### Changed
+- CHANGELOG.md
+- scripts
+  - python
+    - update-cloudflare-domains.py
+- README.md
+
+### Removed
+Nothing Removed.
+
+## [01.28.2024.01] - 2024-01-28
+
+### Added
+- scripts
+  - powershell
+    - iOSMobileSort.ps1
+  - macOS
+    - bomgar-install.sh
+
+### Moved
+Nothing moved.
+
+### Changed
+- CHANGELOG.md
+
+### Removed
+Nothing Removed.
+
 ## [05.01.2024.01] - 2024-05-01
 
 ### Added
