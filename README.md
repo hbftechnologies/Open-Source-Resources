@@ -56,7 +56,7 @@ No Referenced Links
 ## Gallery
 > Insert the the images for this project.
 
-<img src="images/logo.png" width="600px" height="250px" alt="Main Logo">
+<img src="images/2024-Phoenix-HiRes-Transparent.png" width="400px" height="175px" alt="Main Logo">
 
 <div align="right"><p>(<a href="#top">back to top</a>)</p></div>
 
