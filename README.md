@@ -4,7 +4,7 @@
 <div align="center">
 	<h1>Open Source Resources</h1>
 	<p><strong>This project encompasses my open source projects and scripts.</strong><p>
-	<img src="images/logo.png" width="600px" height="250px" alt="Main Logo">
+	<img src="images/2024-Phoenix-HiRes-Transparent.png" width="600px" height="250px" alt="Main Logo">
 </div>
 
 ## Table of Contents
@@ -27,7 +27,7 @@
 ## About The Project
 > List the Project Details.
 
-This project is designed to house and document my skills and scripts. This is to better myself, and help the community.
+This project is designed to house and document my skills and scripts. This is to better myself and help the community.
 
 
 ### Referenced Links
@@ -69,7 +69,7 @@ No Referenced Links
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgments
-> Special people that deserve to be acknowledged.
+> Special people who deserve to be acknowledged.
 
 None to acknowledge at this time.
 
