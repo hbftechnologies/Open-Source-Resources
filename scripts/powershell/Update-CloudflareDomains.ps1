@@ -128,23 +128,41 @@ foreach ($domain in $domains) {
     $readDNSRecord = Read-CloudflarePrimaryRecord -domain $domain -zoneId $zoneId
     # $readDNSRecord.result.content
     $publicIP = Get-PublicIP
+    $addRecordResult = $false
+    $updatedRecordResult = $false
+    $recordExists = $false
 
     if ($readDNSRecord.result.content) {
-        Write-Output "$domain primary record exists and has an IP of $($readDNSRecord.result.content)."
+        # Write-Output "$domain primary record exists and has an IP of $($readDNSRecord.result.content)."
+        $recordExists = $true
         # true
         if ($readDNSRecord.result.content -ne $publicIP) {
             # does not match public IP
             # update records
-            Write-Output "$domain IP doesn't match the current local public IP: $publicIP."
-            Write-Output "Updating $domain DNS Records."
+            # Write-Output "$domain IP doesn't match the current local public IP: $publicIP."
+            # Write-Output "Updating $domain DNS Records."
             Update-CloudflarePrimaryRecord -domain $domain -zoneId $zoneId
+            $updatedRecordResult = $true
         } else {
-            Write-Output "$domain DNS record is current and no action is needed."
+            # Write-Output "$domain DNS record is current and no action is needed."
+            $updatedRecordResult = $false
         }
     } else {
         # false
-        Write-Output "$domain primary record does not exist."
-        Write-Output "Adding $domain DNS Records."
+        # Write-Output "$domain primary record does not exist."
+        # Write-Output "Adding $domain DNS Records."
         Add-CloudflarePrimaryRecord -domain $domain -zoneId $zoneId
+        $addRecordResult = $true
+    }
+
+    $result += [PSCustomObject]@{
+        'Domain Name' = $domain
+        'Cloudflare IP' = $readDNSRecord.result.content
+        'Local IP' = $publicIP
+        'Record Exists' = $recordExists
+        'New Record Added' = $addRecordResult
+        'Existing Record Updated' = $updatedRecordResult
     }
 }
+
+$result | Format-Table
