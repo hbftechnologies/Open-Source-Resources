@@ -4,6 +4,22 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [08.31.2024.01] - 2024-08-31
+
+### Added
+- scripts
+  - linux-debian
+    - hardware_script.sh
+
+### Moved
+Nothing moved.
+
+### Changed
+- CHANGELOG.md
+
+### Removed
+Nothing Removed.
+
 ## [06.09.2024.01] - 2024-06-09
 
 ### Added
