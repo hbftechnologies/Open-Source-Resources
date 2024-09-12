@@ -4,6 +4,23 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [09.12.2024.01] - 2024-09-12
+
+### Added
+- scripts
+  - linux-debian
+    - lvm_extension.sh
+    - initialization_script.sh
+
+### Moved
+Nothing moved.
+
+### Changed
+- CHANGELOG.md
+
+### Removed
+Nothing Removed.
+
 ## [08.31.2024.01] - 2024-08-31
 
 ### Added
