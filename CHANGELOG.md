@@ -4,6 +4,21 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [10.06.2024.01] - 2024-10-06
+
+### Added
+- docker
+  - code-server_script.sh
+
+### Moved
+Nothing moved.
+
+### Changed
+- CHANGELOG.md
+
+### Removed
+Nothing Removed.
+
 ## [09.12.2024.01] - 2024-09-12
 
 ### Added
