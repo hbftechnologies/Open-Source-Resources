@@ -2978,3 +2978,16 @@
 ||zabbix.com^
 ||zadn.vn^
 ||zalando
+||x.com^
+||twitter.com^
+||api.x.com^
+||api.twitter.com^
+||pbs.twimg.com^
+|video.twimg.com^
+||abs.twimg.com^
+||t.co^
+||xai.com^
+||grok.xai.com^
+||api.xai.com^
+
+
