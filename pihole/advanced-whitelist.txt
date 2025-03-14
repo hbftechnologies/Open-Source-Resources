@@ -13,6 +13,7 @@ aax.amazon-adsystem.com
 abcstats.com
 ablida.net
 abtasty.com
+abs.twimg.com
 acexedge.com
 acint.net
 actonservice.com
@@ -91,10 +92,10 @@ adro.co
 adroll.com
 adrta.com
 adrunnr.com
+ads-linkedin.com
 ads-twitter.com
-ads.linkedin.com
+ads-yahoo.com
 ads.stickyadstv.com
-ads.yahoo.com
 ads5-adnow.com
 adsafety.net
 adsame.com
@@ -145,7 +146,6 @@ advertising.com
 advertserve.com
 adview.cn
 advideum.com
-adv conversion.com
 advnt.com
 advolution.de
 advsmedia.net
@@ -207,10 +207,16 @@ apester.com
 apex-ad.com
 apex.go.sonobi.com
 api.appnexus.com
+api.slack.com
+api.tabnine.com
 api.tapjoy.com
+api.twitter.com
+api.x.com
+api.xai.com
 apnmedia.ask.com
 apolloprogram.io
 app-measurement.com
+app.slack.com
 appads.com
 appboy.com
 appier.net
@@ -402,6 +408,7 @@ cdn-telegram.org
 cdn.adnxs.com
 cdn.doubleverify.com
 cdn.moatads.com
+cdn.tabnine.com
 cdn.taboola.com
 cdn1.smartadserver.com
 cdn4ads.com
@@ -533,7 +540,6 @@ cygnus.com
 d1mib7hed984nv.cloudfront.net
 d2cmedia.ca
 dable.io
-dable.io
 dailycaller.com
 dailymotion.com
 dashbida.com
@@ -618,6 +624,7 @@ dsp.io
 dstillery.com
 dtscout.com
 duapps.com
+duckdns.org
 duckduckgo.com
 durationmedia.net
 dvidshub.net
@@ -652,7 +659,6 @@ electricimp.com
 elitedaily.com
 eloqua.com
 elsevier.com
-email aptitude.com
 email-retargeting.com
 emarketer.com
 embedly.com
@@ -1147,6 +1153,7 @@ greenhouse.io
 gridads.net
 gridgame.com
 grindr.com
+grok.xai.com
 groupon.com
 grvmedia.com
 gscontxt.net
@@ -1831,7 +1838,6 @@ ouo.io
 outbrain.com
 overblog.com
 ow.ly
-owneriq.net
 ox-d.sbnation.com
 oxfam.org.uk
 p1.com
@@ -1858,6 +1864,7 @@ paysafe.com
 pazar3.mk
 pbgslb.net
 pbs.org
+pbs.twimg.com
 pcworld.com
 pdflibr.com
 pdqmedia.nl
@@ -1891,7 +1898,6 @@ pingdom.net
 pinterest.com
 pippio.com
 pitchfork.com
-pixabay.com
 pixel.ad
 pixel.watch
 pixelunion.net
@@ -2150,6 +2156,7 @@ rundsp.com
 rutarget.ru
 rythmx.com
 s-onetag.com
+s3.amazonaws.com
 s3xified.com
 saambaa.com
 sage.com
@@ -2287,6 +2294,9 @@ skribble.io
 sky.com
 skype.com
 skyrock.com
+slack-edge.com
+slack-files.com
+slack-imgs.com
 slack.com
 sladent.com
 slate.com
@@ -2328,7 +2338,6 @@ socialflow.com
 socialmedia.com
 socialpilot.co
 socialsamosa.com
-socialsweethearts.de
 sociomantic.com
 softonic.com
 softpedia.com
@@ -2459,6 +2468,7 @@ synthesio.com
 sysomos.com
 t.co
 t.paypal.com
+tabnine.com
 taboola.com
 tacticalrepublic.com
 tagboard.com
@@ -2899,6 +2909,8 @@ wp.com
 wp.pl
 wpexp.com
 wsj.com
+wss-backup.slack.com
+wss-primary.slack.com
 wunderman.com
 wunderground.com
 wurfl.io
@@ -2907,6 +2919,7 @@ wwwpromoter.com
 wyng.com
 wyzowl.com
 x.com
+xai.com
 xad.com
 xaxis.com
 xda-developers.com
@@ -2978,41 +2991,5 @@ yvesrocher.com
 zabbix.com
 zadn.vn
 zalando
-x.com
-twitter.com
-api.x.com
-api.twitter.com
-pbs.twimg.com
-video.twimg.com
-abs.twimg.com
-t.co
-xai.com
-grok.xai.com
-api.xai.com
-duckdns.org
-slack.com
-*.slack.com
-app.slack.com
-api.slack.com
-slack-edge.com
-slack-files.com
-slack-imgs.com
-wss-primary.slack.com
-wss-backup.slack.com
-x.com
-twitter.com
-api.x.com
-api.twitter.com
-pbs.twimg.com
-video.twimg.com
-abs.twimg.com
-t.co
-xai.com
-grok.xai.com
-api.xai.com
-tabnine.com
-api.tabnine.com
-updates.tabnine.com
-cdn.tabnine.com
-s3.amazonaws.com
 *.cloudfront.net
+*.slack.com
