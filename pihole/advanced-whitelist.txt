@@ -2989,5 +2989,5 @@
 ||xai.com^
 ||grok.xai.com^
 ||api.xai.com^
-
+||duckdns.org^
 
