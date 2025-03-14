@@ -2983,7 +2983,7 @@ twitter.com
 api.x.com
 api.twitter.com
 pbs.twimg.com
-|video.twimg.com
+video.twimg.com
 abs.twimg.com
 t.co
 xai.com
@@ -3010,3 +3010,9 @@ t.co
 xai.com
 grok.xai.com
 api.xai.com
+tabnine.com
+api.tabnine.com
+updates.tabnine.com
+cdn.tabnine.com
+s3.amazonaws.com
+*.cloudfront.net
