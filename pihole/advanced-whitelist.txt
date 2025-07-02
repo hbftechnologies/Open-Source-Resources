@@ -2993,3 +2993,4 @@ zadn.vn
 zalando
 *.cloudfront.net
 *.slack.com
+*.doslabelectronics.com
