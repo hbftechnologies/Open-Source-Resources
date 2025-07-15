@@ -73,32 +73,38 @@ echo "Creating Dockerfile for code-server"
 sudo tee $VSCODE_DOCKERFILE > /dev/null <<'EOF'
 FROM lscr.io/linuxserver/code-server:latest
 
-# Update the list of packages
+# Update package list
 RUN apt-get update
 
-# Install pre-requisite packages
-RUN apt-get install -y wget apt-transport-https software-properties-common
+# Install dependencies
+RUN apt-get install -y \
+    wget \
+    apt-transport-https \
+    software-properties-common \
+    curl \
+    git \
+    python3 \
+    python3-pip
 
-# Download the Microsoft repository keys
-RUN wget -q https://packages.microsoft.com/config/ubuntu/24.04/packages-microsoft-prod.deb
+# Install PowerShell
+# if this is needed in the future
+# dpkg --install --ignore-depends=libicu72 powershell_7.5.1-1.deb_amd64.deb || true
+RUN wget -q https://packages.microsoft.com/config/ubuntu/24.04/packages-microsoft-prod.deb && \
+    dpkg -i packages-microsoft-prod.deb || true && \
+    rm packages-microsoft-prod.deb && \
+    apt-get update && \
+    wget https://github.com/PowerShell/PowerShell/releases/download/v7.5.1/powershell_7.5.1-1.deb_amd64.deb && \
+    dpkg --install powershell_7.5.1-1.deb_amd64.deb || true && \
+    rm powershell_7.5.1-1.deb_amd64.deb
 
-# Register the Microsoft repository keys
-RUN dpkg -i packages-microsoft-prod.deb || true
+# Install Python tools
+RUN pip3 install --no-cache-dir \
+    virtualenv \
+    pylint \
+    jupyter
 
-# Delete the Microsoft repository keys file
-RUN rm packages-microsoft-prod.deb
-
-# Update the list of packages after we added packages.microsoft.com
-RUN apt-get update
-
-# Download the PowerShell package file
-RUN wget https://github.com/PowerShell/PowerShell/releases/download/v7.4.5/powershell_7.4.5-1.deb_amd64.deb
-
-# Install the PowerShell package
-RUN dpkg --install --ignore-depends=libicu72 powershell_7.4.5-1.deb_amd64.deb || true
-
-# Delete the downloaded PowerShell package file
-RUN rm powershell_7.4.5-1.deb_amd64.deb
+# Clean up
+RUN apt-get clean && rm -rf /var/lib/apt/lists/*
 EOF
 
 # Create a new docker-compose.yml
