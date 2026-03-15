@@ -166,6 +166,7 @@ affili.net
 affiliatestats.com
 affinesystems.com
 affinitymatrix.com
+affirm.com
 agkn.com
 aimatch.com
 airpush.com
@@ -319,6 +320,8 @@ bing.com
 bisk.com
 bit.ly
 bitmedianetwork.com
+bitwarden.com
+bitwarden.net
 bizible.com
 bizrate.com
 bizzclick.com
@@ -1750,6 +1753,8 @@ ninthdecimal.com
 njoyn.com
 nola.com
 nordstrom.com
+nordvpn.com
+*.notarize.com
 novem.pl
 nowinteract.com
 npr.org
@@ -2366,6 +2371,7 @@ spin.app
 splicky.com
 split.io
 splkmobile.com
+spmailtechno.com
 sponsorpay.com
 sportradar.com
 spot.im
@@ -2406,6 +2412,7 @@ staticflickr.com
 statista.com
 statsforads.com
 statsig.com
+*.statuspage.io
 stay22.com
 steepto.com
 stelladot.com
@@ -2466,7 +2473,7 @@ synergetic.ag
 synergy-e.com
 synthesio.com
 sysomos.com
-t.co
+*.t.co
 t.paypal.com
 tabnine.com
 taboola.com
@@ -2478,6 +2485,7 @@ tagged.com
 tagger.com
 tagman.com
 tagular.com
+tailscale.com
 tailtarget.com
 takethatad.com
 takip.com.tr
@@ -2661,9 +2669,10 @@ tvncdn.vn
 tvpage.com
 tvpixel.com
 twimg.com
+twingate.com
 twitch.tv
 twitchcdn.net
-twitter.com
+*.twitter.com
 twoo.com
 twopointo.io
 txtimpact.com
@@ -2860,6 +2869,7 @@ wemass.com
 weplaydots.com
 weq.de
 westelm.com
+wethepeopledailynews.com
 wetter.com
 wfaa.com
 whatsapp.com
@@ -2991,6 +3001,7 @@ yvesrocher.com
 zabbix.com
 zadn.vn
 zalando
+*.x.com
 *.cloudfront.net
 *.slack.com
 *.doslabelectronics.com
